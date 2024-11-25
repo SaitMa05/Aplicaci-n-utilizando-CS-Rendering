@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-commerce</title>
+    <script src="https://cdn.jsdelivr.net/npm/ejs@3.1.6/ejs.min.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+        * {
+            font-family: "Poppins", serif;
+        }
+    </style>
+    <link rel="icon" href="img/logo.png">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="izquierda">
+            <a href="/"><h1>E-commerce</h1></a>
+        </div>
+        <div class="derecha">
+            <div id="cart-icon" class="cart-icon">
+                🛒
+                <div id="cart-dropdown" class="cart-dropdown hidden">
+                    <h3>Carrito</h3>
+                    <div id="cart-items"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="categories">
+            <h2>Categorías</h2>
+            <ul>
+                <li>Todos</li>
+                <li>Electrónica</li>
+                <li>Accesorios</li>
+                <li>Muebles</li>
+            </ul>
+        </section>
+
+        <section id="content">
+            <h2>Productos</h2>
+        </section>
+    </main>
+
+    <footer>
+        <p>Página realizada por Ailín y Mati</p>
+    </footer>
+    <script src="js/js.js"></script>
+</body>
+
+</html>
